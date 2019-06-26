@@ -1,0 +1,256 @@
+INFO: 2019-06-26 19:47:12,642: perform_upgrade() 'Last run version was 0.7.2 or earlier, current version is 0.7.2'
+INFO: 2019-06-26 19:47:12,836: process_command() 'Received command: []'
+INFO: 2019-06-26 19:47:12,837: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2019-06-26 19:47:12,854: load() 'Jumble loading'
+INFO: 2019-06-26 19:47:12,855: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/__init__.py'
+INFO: 2019-06-26 19:47:12,857: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/share/variety/plugins/quotes/LocalFilesSource.py'
+INFO: 2019-06-26 19:47:12,858: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-06-26 19:47:12,858: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/quotes/__init__.py'
+INFO: 2019-06-26 19:47:12,859: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/share/variety/plugins/quotes/QuotationsPageSource.py'
+INFO: 2019-06-26 19:47:12,871: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-06-26 19:47:12,872: _walk_modules() 'Jumble loading module in QuotesDaddySource from /usr/share/variety/plugins/quotes/QuotesDaddySource.py'
+INFO: 2019-06-26 19:47:12,872: load() 'Jumble found plugin class: <class 'QuotesDaddySource.QuotesDaddySource'>: {'name': 'QuotesDaddy', 'description': "Fetches quotes from QuotesDaddy's daily quotes RSS feed.\nDoes not support searching by tags or authors.", 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-06-26 19:47:12,873: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/share/variety/plugins/quotes/GoodreadsSource.py'
+INFO: 2019-06-26 19:47:12,874: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-06-26 19:47:12,877: reload_config() 'Creating new downloader for type 6, location Random wallpapers from Desktoppr.co'
+INFO: 2019-06-26 19:47:12,877: log_options() 'Loaded options:'
+INFO: 2019-06-26 19:47:12,877: log_options() 'change_enabled = True'
+INFO: 2019-06-26 19:47:12,877: log_options() 'change_interval = 1800'
+INFO: 2019-06-26 19:47:12,877: log_options() 'change_on_start = False'
+INFO: 2019-06-26 19:47:12,877: log_options() 'clipboard_enabled = False'
+INFO: 2019-06-26 19:47:12,877: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2019-06-26 19:47:12,877: log_options() 'clipboard_use_whitelist = True'
+INFO: 2019-06-26 19:47:12,878: log_options() 'clock_date_font = Ubuntu Condensed, 30'
+INFO: 2019-06-26 19:47:12,878: log_options() 'clock_enabled = False'
+INFO: 2019-06-26 19:47:12,878: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2019-06-26 19:47:12,878: log_options() 'clock_font = Ubuntu Condensed, 70'
+INFO: 2019-06-26 19:47:12,878: log_options() 'configfile = /home/danekikr/.config/variety/variety.conf'
+INFO: 2019-06-26 19:47:12,878: log_options() 'copyto_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'copyto_folder = Default'
+INFO: 2019-06-26 19:47:12,879: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2019-06-26 19:47:12,879: log_options() 'desired_color_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'download_enabled = True'
+INFO: 2019-06-26 19:47:12,879: log_options() 'download_folder = /home/danekikr/.config/variety/Downloaded'
+INFO: 2019-06-26 19:47:12,879: log_options() 'download_interval = 60'
+INFO: 2019-06-26 19:47:12,879: log_options() 'favorites_folder = /home/danekikr/.config/variety/Favorites'
+INFO: 2019-06-26 19:47:12,879: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2019-06-26 19:47:12,879: log_options() 'fetched_folder = /home/danekikr/.config/variety/Fetched'
+INFO: 2019-06-26 19:47:12,879: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [False, 'Oil painting', '-paint 8'], [False, 'Pencil sketch', '-colorspace gray \\( +clone -tile ~/.config/variety/pencil_tile.png -draw "color 0,0 reset" +clone +swap -compose color_dodge -composite \\) -fx \'u*.2+v*.8\''], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2019-06-26 19:47:12,879: log_options() 'icon = Light'
+INFO: 2019-06-26 19:47:12,879: log_options() 'lightness_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'lightness_mode = 0'
+INFO: 2019-06-26 19:47:12,879: log_options() 'min_rating = 4'
+INFO: 2019-06-26 19:47:12,879: log_options() 'min_rating_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'min_size = 80'
+INFO: 2019-06-26 19:47:12,879: log_options() 'min_size_enabled = True'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quota_enabled = True'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quota_size = 500'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_authors = '
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_bg_opacity = 55'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_change_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_change_interval = 300'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_disabled_sources = ['QuotesDaddy']'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_enabled = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_favorites_file = /home/danekikr/.config/variety/favorite_quotes.txt'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_hpos = 100'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_tags = '
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_text_shadow = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_vpos = 40'
+INFO: 2019-06-26 19:47:12,879: log_options() 'quotes_width = 70'
+INFO: 2019-06-26 19:47:12,879: log_options() 'safe_mode = False'
+INFO: 2019-06-26 19:47:12,879: log_options() 'slideshow_custom_enabled = False'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_custom_folder = /home/danekikr/Billeder'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_fade = 0.4'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_monitor = All'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_pan = 0.05'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_seconds = 6.0'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_sort_order = Random'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_sources_enabled = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'slideshow_zoom = 0.2'
+INFO: 2019-06-26 19:47:12,880: log_options() 'smart_enabled = False'
+INFO: 2019-06-26 19:47:12,880: log_options() 'smart_notice_shown = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'smart_register_shown = False'
+INFO: 2019-06-26 19:47:12,880: log_options() 'sources = [[True, 3, 'The Favorites folder'], [False, 4, 'The Fetched folder'], [True, 2, '/usr/share/backgrounds'], [True, 6, 'Random wallpapers from Desktoppr.co'], [False, 15, 'Bing Photo of the Day'], [False, 16, 'High-resolution photos from Unsplash.com'], [False, 8, "NASA's Astronomy Picture of the Day"], [False, 11, 'World Sunlight Map - live wallpaper from Die.net'], [False, 7, 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;']]'
+INFO: 2019-06-26 19:47:12,880: log_options() 'stats_enabled = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'stats_notice_shown = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'sync_enabled = True'
+INFO: 2019-06-26 19:47:12,880: log_options() 'use_landscape_enabled = True'
+INFO: 2019-06-26 19:47:12,880: reload_config() 'No need to clear prepared queue'
+INFO: 2019-06-26 19:47:12,881: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 1800'
+INFO: 2019-06-26 19:47:12,882: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:47:12,888: regular_change_thread() 'regular_change thread running'
+INFO: 2019-06-26 19:47:12,890: prepare_thread() 'Prepare thread running'
+INFO: 2019-06-26 19:47:12,891: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2019-06-26 19:47:12,891: prepare_thread() 'Preparing some images'
+INFO: 2019-06-26 19:47:12,903: update_indicator_icon() 'Creating indicator'
+WARNING: 2019-06-26 19:47:12,982: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2019-06-26 19:47:12,984: do_set_wp() 'Calling do_set_wp with /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg, time: 1561571232.9847434'
+INFO: 2019-06-26 19:47:13,001: create_indicator() 'indicator backend: fallback tray'
+INFO: 2019-06-26 19:47:13,015: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:47:13,136: prepare_thread() 'After search prepared buffer contains 91 images'
+INFO: 2019-06-26 19:47:13,266: set_from_theme_icon() 'Showing status icon variety-indicator from GTK theme'
+INFO: 2019-06-26 19:47:13,272: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:47:15,003: reload() 'Reloading preferences dialog'
+INFO: 2019-06-26 19:47:32,913: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-06-26 19:47:32,992: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Navn eller tjeneste ukendt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f573ff00828>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f573ff00828>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f573ff00828>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt'))
+INFO: 2019-06-26 19:48:03,021: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-06-26 19:48:03,023: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Navn eller tjeneste ukendt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 355, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 183, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f5768502a90>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5768502a90>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5768502a90>: Failed to establish a new connection: [Errno -2] Navn eller tjeneste ukendt'))
+INFO: 2019-06-26 19:48:12,896: purge_downloaded() 'Refreshed download folder size: 239 mb'
+INFO: 2019-06-26 19:48:12,896: download_one() 'Downloading a random image from desktoppr.co'
+INFO: 2019-06-26 19:48:14,215: save_locally() 'Origin URL: https://www.desktoppr.co/wallpapers/177940'
+INFO: 2019-06-26 19:48:14,215: save_locally() 'Image URL: http://a.desktopprassets.com/wallpapers/7cfee963cd0b4a4adc927b8d10f4ba81ea836ed4/466476_335841223179501_713661510_o.jpg'
+INFO: 2019-06-26 19:48:14,215: save_locally() 'Local name: /home/danekikr/.config/variety/Downloaded/Desktoppr/466476_335841223179501_713661510_o.jpg'
+INFO: 2019-06-26 19:48:14,942: save_locally() 'Download complete'
+INFO: 2019-06-26 19:48:14,943: prepare_thread() 'Prepared buffer contains 91 images'
+INFO: 2019-06-26 19:48:14,943: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:48:33,025: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2019-06-26 19:48:34,459: server_options_thread() 'Fetched server options: {'flickr': {'min_fill_queue_interval': 1200, 'min_download_interval': 1200}, 'wallbase': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallhaven': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallpapers.net': {'min_fill_queue_interval': 600, 'min_download_interval': 0}, 'unsplash': {'min_fill_queue_interval': 20000000000, 'min_download_interval': 20000000000}, 'unsplash_v2': {'min_fill_queue_interval': 1800, 'min_download_interval': 600}, 'status_message': {'0.0.1': '', '*': ''}}'
+INFO: 2019-06-26 19:49:12,891: download_one() 'Downloading a random image from desktoppr.co'
+INFO: 2019-06-26 19:49:13,827: save_locally() 'Origin URL: https://www.desktoppr.co/wallpapers/135993'
+INFO: 2019-06-26 19:49:13,827: save_locally() 'Image URL: http://a.desktopprassets.com/wallpapers/b45f3949a734b89d9d9e4e2171c4c77a36dc5c37/mordin_the_great_marine_biologist_by_uriska-d507lkc.jpg'
+INFO: 2019-06-26 19:49:13,827: save_locally() 'Local name: /home/danekikr/.config/variety/Downloaded/Desktoppr/mordin_the_great_marine_biologist_by_uriska-d507lkc.jpg'
+INFO: 2019-06-26 19:49:14,881: save_locally() 'Download complete'
+INFO: 2019-06-26 19:49:14,882: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:49:14,884: download_one_from() 'Adding downloaded file /home/danekikr/.config/variety/Downloaded/Desktoppr/mordin_the_great_marine_biologist_by_uriska-d507lkc.jpg to prepared_from_downloads queue'
+INFO: 2019-06-26 19:50:12,891: download_one() 'Downloading a random image from desktoppr.co'
+INFO: 2019-06-26 19:50:14,174: save_locally() 'Origin URL: https://www.desktoppr.co/wallpapers/230484'
+INFO: 2019-06-26 19:50:14,174: save_locally() 'Image URL: http://a.desktopprassets.com/wallpapers/581cc20f877d8f00be6c9224e603201b5365fec6/080127110812416.jpg'
+INFO: 2019-06-26 19:50:14,175: save_locally() 'Local name: /home/danekikr/.config/variety/Downloaded/Desktoppr/080127110812416.jpg'
+INFO: 2019-06-26 19:50:15,130: save_locally() 'Download complete'
+INFO: 2019-06-26 19:50:15,131: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:50:15,132: download_one_from() 'Adding downloaded file /home/danekikr/.config/variety/Downloaded/Desktoppr/080127110812416.jpg to prepared_from_downloads queue'
+INFO: 2019-06-26 19:51:12,891: download_one() 'Downloading a random image from desktoppr.co'
+INFO: 2019-06-26 19:51:14,281: save_locally() 'Origin URL: https://www.desktoppr.co/wallpapers/180009'
+INFO: 2019-06-26 19:51:14,281: save_locally() 'Image URL: http://a.desktopprassets.com/wallpapers/4955a91766114a8bfa0f78896a73a5908ae6a26f/big_561640fccdefc85b46d723a04078305e33d0f2e8.jpg'
+INFO: 2019-06-26 19:51:14,281: save_locally() 'Local name: /home/danekikr/.config/variety/Downloaded/Desktoppr/big_561640fccdefc85b46d723a04078305e33d0f2e8.jpg'
+INFO: 2019-06-26 19:51:15,203: save_locally() 'Download complete'
+INFO: 2019-06-26 19:51:15,203: update_indicator() 'Setting file info to: /home/danekikr/.config/variety/Downloaded/Desktoppr/wallpaper_halo_3_09_1920x1200.jpg'
+INFO: 2019-06-26 19:51:15,204: prepare_thread() 'Prepared buffer contains 91 images'
